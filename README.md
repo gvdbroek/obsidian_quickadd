@@ -1,8 +1,15 @@
 # Obsidian Quick Add
 
-A small KDE dialog tool that reads an input, sanitizes it and passes it to the obsidian CLI
-Could have probably been a convoluted alias in .bashrc, but felt was curious to try zig
+A small KDE dialog tool that reads an input, sanitizes it and passes it to the obsidian CLI.  
+Could have probably been simple bash script + alias. But felt like trying zig for fun.
 
+## Might do later
+- look into a UI dependency to get rid of `kdialog`
+- Improve feedback
+  - Show sanitized output before sending cli command
+  - Validate length of input string
+- Configurability
+  - Dunno, something something allowing a choice of quickcommands as an input or something.
 
 ## Dependencies
 - Obsidian + Obsidian CLI (registered)
